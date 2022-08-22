@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url('/Poppins-SemiBold.ttf');
+}
+.conta {
+  @apply bg-[#d5e1ef] grid grid-cols-3 p-0 m-0 h-screen w-full place-content-center sm:grid
+  sm:grid-cols-1 sm:justify-items-center sm:my-5
+}
+.ma {
+  @apply bg-white h-[496px] w-[319px] rounded-3xl place-content-center
+}
+.ro {
+  @apply m-[12px] grid grid-rows-2 
+}
+.mag {
+  @apply rounded-xl overflow-hidden
+}
+.tex{
+  @apply grid grid-rows-2 place-items-center box-border h-[177px] text-center mx-4
+}
+.attribution{
+  @apply sm:block sm:mt-2
+}
